@@ -1,0 +1,135 @@
+/* CSS FOR NAVBAR/HEADER */
+
+.navbar {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+.five_links {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.five_links a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.two_buttons {
+    float:right;
+    margin-right: 80px;
+}
+
+#sign_in {
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    color: #0850f8;
+    border-color: #0850f8;
+    font-weight: bold;
+    box-shadow: none;
+    border-style: solid;
+    cursor: pointer;
+}
+
+#try_it_free{
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    background-color: #0850f8;
+    color: white;
+    border-color: #0850f8;
+    font-weight: bold;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+#logo {
+    width: 175px;
+    margin-left: 80px;
+}
+
+
+/* CSS FOR FOOTER */
+
+.footer {
+    background-color: #0850f8;
+    color: white;
+}
+
+#double_tap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#get_started {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two_bottom_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#started_button {
+    background-color: rgb(42, 238, 16);
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(42, 238, 16);
+    color: white;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.started_button_text {
+    margin: 3px 0px 3px 25px;
+}
+
+#chat_with_us {
+    background-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    color: #0850f8;
+    width: 150px;
+    display: flex;
+    cursor: pointer;
+}
+
+#speech_bubble {
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 1px;
+    margin-bottom: 3px;
+}
+
+#chat_with_us_text {
+    margin-top: 3px;
+    margin-bottom: 1px;   
+}
+
+.bottom_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 450px;
+    margin: 0 auto;
+    font-size: small;
+    padding-top: 20px;
+}
+
