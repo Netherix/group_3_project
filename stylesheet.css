@@ -169,3 +169,111 @@
     display: flex;
     justify-content: center;
   }
+  *{
+    margin: 0;
+    padding: 0
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.main_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 500px;
+    margin-top: 50px;
+}
+
+.hero-right{
+    margin-left: 800px;
+    margin-top: 90px;
+}
+
+
+.button{
+    background-color: white;
+    border-color: blue;
+    color:blue;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+}
+.signin{
+    background-color: white;
+    color: blue;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: blue;
+
+}
+.Tfree{
+    background-color: blue;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+}
+.signup{
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+/*.sign-chat{ 
+    display: flex;
+    justify-content: space;
+    padding: 15px;
+}*/
+.header{
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.h-div {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    left: calc(700px);
+    top: 70px;
+    margin-left: 300px;
+    width: 1500px;
+    position: absolute;
+    
+    right: 0;
+}
+
+.logo{
+    max-width: 12%;
+    max-height: 12%;
+}
+
+.line {
+    margin-top: 200px;
+    max-width: 65%;
+    margin-left: 200px;
+}
+
+#let_us {
+    margin-bottom: 10px;
+}
+
+.subscription {
+    color: grey;
+    font-size: 15px;
+}
+
+.doubletap {
+    margin-bottom: 20px;
+}
