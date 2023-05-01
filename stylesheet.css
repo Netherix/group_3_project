@@ -133,3 +133,39 @@
     padding-top: 20px;
 }
 
+.section-3{  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.6fr 1.4fr;
+    gap: 0px 0px;
+    justify-items: center;
+    margin: 15%;
+    margin-bottom: 5%;
+    grid-template-areas:
+      "Box-1 Box-1 Box-1"
+      "Box-2 Box-3 Box-3";
+  }
+  
+  .Box-1 { grid-area: Box-1; }
+  
+  .Box-2 { grid-area: Box-2; }
+  
+  .Box-3 { grid-area: Box-3; }
+
+  .Box-3{
+    background-color: blue;
+  }
+  .Box-1{
+    margin-bottom: 5%;
+  }
+  .Box-3{
+     color: white;
+     font-size: small;
+     padding: 5%;
+     border-top-right-radius: 3%;
+     border-bottom-right-radius: 3%;
+     
+  }
+  .gps-head{
+    display: flex;
+    justify-content: center;
+  }
