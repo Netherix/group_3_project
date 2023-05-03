@@ -317,8 +317,8 @@ a{
     left: calc(700px);
     top: 70px;
     margin-left: 300px;
-    margin-top: 500px;
     width: 1500px;
+    position: absolute;
     right: 0;
 }
 
